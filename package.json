@@ -2,11 +2,11 @@
   "name": "tsi_api-aula01",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "tarefas.js",
   "scripts": {
-    "dev": "ts-node src/server.ts",
+    "dev": "ts-node src/tarefas.ts",
     "build": "tsc",
-    "start": "node dist/server.js"
+    "start": "node dist/tarefas.js"
   },
   "repository": {
     "type": "git",

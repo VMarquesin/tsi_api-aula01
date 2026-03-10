@@ -1,0 +1,29 @@
+@url = http://localhost:3000/tarefas
+GET {{url}}
+###
+GET {{url}}/1
+###
+POST {{url}}
+Content-Type: application/json
+
+{
+    "titulo": "Teste"
+}
+###
+PUT {{url}}/1
+Content-Type: application/json
+
+{
+    "titulo": "Estudando express",
+    "concluida": true
+}
+
+###
+PUT {{url}}/1
+Content-Type: application/json
+
+{
+    "concluida": true
+}
+###
+DELETE {{url}}/1
